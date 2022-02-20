@@ -28,6 +28,7 @@ namespace Hello_World
             if (s.Length == 0)
             {
                 Console.Clear();
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("ERROR: The integer must be at least 1 character long.");
                 Console.ReadLine();
                 return;
@@ -50,6 +51,7 @@ namespace Hello_World
             if (s.Length != 1)
             {
                 Console.Clear();
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("ERROR: The data you entred was not a valid char data type.");
                 Console.ReadLine();
                 return;
