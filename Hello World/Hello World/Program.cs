@@ -33,7 +33,15 @@ namespace Hello_World
             Console.WriteLine();
 
             Console.WriteLine("Enter a char");
-            c = char.Parse(Console.ReadLine());
+            s = Console.ReadLine();
+            if (s.Length != 1)
+            {
+                Console.Clear();
+                Console.WriteLine("ERROR: The data you entred was not a valid char data type.");
+                Console.ReadLine();
+                return;
+            }
+            c = char.Parse(s);
             Console.WriteLine("c: " + c);
             Console.ReadLine();
 
