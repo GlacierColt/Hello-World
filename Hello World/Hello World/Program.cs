@@ -12,8 +12,9 @@ namespace Hello_World
         {
             string sline;
             Console.WriteLine("Hello World.");
+            Console.WriteLine("Please write a line to be dispalyed and saved in sline:");
             sline = Console.ReadLine();
-            Console.WriteLine("sline = " + sline);
+            Console.WriteLine("sline: " + sline);
             Console.ReadLine(); 
         }
 
