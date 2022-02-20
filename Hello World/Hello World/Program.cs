@@ -17,15 +17,28 @@ namespace Hello_World
 
             Console.WriteLine("Hello World");
             Console.WriteLine();
+
             Console.WriteLine("Enter a string");
             s = Console.ReadLine();
             Console.WriteLine("s: " + s);
             Console.WriteLine();
 
             Console.WriteLine("Enter a integer");
-            i = int.Parse(Console.ReadLine());
-            Console.WriteLine("i: " + i);
-            Console.WriteLine();
+            s = Console.ReadLine();
+            if (s.Length == 0)
+            {
+                Console.Clear();
+                Console.WriteLine("ERROR: The integer must be at least 1 character long.");
+                Console.ReadLine();
+                return;
+            }
+            else
+            {
+                i = int.Parse(s);
+                Console.WriteLine("i: " + i);
+                Console.WriteLine();
+            }
+            
 
             Console.WriteLine("Enter a double (float)");
             d = double.Parse(Console.ReadLine());
