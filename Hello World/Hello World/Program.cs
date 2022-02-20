@@ -10,7 +10,7 @@ namespace Hello_World
     {
         static void Main(string[] args)
         {
-            int index;
+            byte index;
             string sindex;
             Console.WriteLine("Hello World!");
             Console.WriteLine();
@@ -35,7 +35,7 @@ namespace Hello_World
 
             bool b;
             b = false;
-            if (int.TryParse(sindex,out int value))
+            if (byte.TryParse(sindex,out byte value))
             {
                 b = true;      
             }
@@ -49,7 +49,7 @@ namespace Hello_World
                 return;
             }
 
-            index = int.Parse(sindex);
+            index = byte.Parse(sindex);
 
 
 
@@ -60,15 +60,18 @@ namespace Hello_World
 
             if (index == 1)
             {
+                Console.Clear();
                 Console.WriteLine("Enter a string");
                 s = Console.ReadLine();
                 Console.WriteLine("s: " + s);
-                Console.WriteLine();
+                Console.ReadLine();
+                return;
 
             }
 
             if (index == 2)
             {
+                Console.Clear();
                 Console.WriteLine("Enter a integer");
                 s = Console.ReadLine();
                 if (s.Length == 0)
@@ -83,20 +86,25 @@ namespace Hello_World
                 {
                     i = int.Parse(s);
                     Console.WriteLine("i: " + i);
-                    Console.WriteLine();
+                    Console.ReadLine();
+                    return;
+                  
                 }
             }
 
             if (index == 3)
             {
+                Console.Clear();
                 Console.WriteLine("Enter a double (float)");
                 d = double.Parse(Console.ReadLine());
                 Console.WriteLine("d: " + d);
-                Console.WriteLine();
+                Console.ReadLine();
+                return;
             }
 
             if (index == 4)
             {
+                Console.Clear();
                 Console.WriteLine("Enter a char");
                 s = Console.ReadLine();
                 if (s.Length != 1)
@@ -110,6 +118,7 @@ namespace Hello_World
                 c = char.Parse(s);
                 Console.WriteLine("c: " + c);
                 Console.ReadLine();
+                return;
             }
 
             if (index > 4)
