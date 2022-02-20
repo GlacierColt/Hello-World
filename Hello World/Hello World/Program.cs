@@ -21,14 +21,21 @@ namespace Hello_World
             s = Console.ReadLine();
             Console.WriteLine("s: " + s);
             Console.WriteLine();
+
             Console.WriteLine("Enter a integer");
             i = int.Parse(Console.ReadLine());
             Console.WriteLine("i: " + i);
             Console.WriteLine();
+
             Console.WriteLine("Enter a double (float)");
             d = double.Parse(Console.ReadLine());
             Console.WriteLine("d: " + d);
-            Console.ReadLine(); 
+            Console.WriteLine();
+
+            Console.WriteLine("Enter a char");
+            c = char.Parse(Console.ReadLine());
+            Console.WriteLine("c: " + c);
+            Console.ReadLine();
 
 
 
