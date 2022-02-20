@@ -1,0 +1,8 @@
+C:\Users\essen\iCloudDrive\Uni\Programing Fundamentals 1A\VS Code\Hello-World\Hello World\Hello World\bin\Debug\Hello World.exe.config
+C:\Users\essen\iCloudDrive\Uni\Programing Fundamentals 1A\VS Code\Hello-World\Hello World\Hello World\bin\Debug\Hello World.exe
+C:\Users\essen\iCloudDrive\Uni\Programing Fundamentals 1A\VS Code\Hello-World\Hello World\Hello World\bin\Debug\Hello World.pdb
+C:\Users\essen\iCloudDrive\Uni\Programing Fundamentals 1A\VS Code\Hello-World\Hello World\Hello World\obj\Debug\Hello World.csproj.AssemblyReference.cache
+C:\Users\essen\iCloudDrive\Uni\Programing Fundamentals 1A\VS Code\Hello-World\Hello World\Hello World\obj\Debug\Hello World.csproj.SuggestedBindingRedirects.cache
+C:\Users\essen\iCloudDrive\Uni\Programing Fundamentals 1A\VS Code\Hello-World\Hello World\Hello World\obj\Debug\Hello World.csproj.CoreCompileInputs.cache
+C:\Users\essen\iCloudDrive\Uni\Programing Fundamentals 1A\VS Code\Hello-World\Hello World\Hello World\obj\Debug\Hello World.exe
+C:\Users\essen\iCloudDrive\Uni\Programing Fundamentals 1A\VS Code\Hello-World\Hello World\Hello World\obj\Debug\Hello World.pdb
