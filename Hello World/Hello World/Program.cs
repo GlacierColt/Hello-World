@@ -24,7 +24,12 @@ namespace Hello_World
             Console.WriteLine("Enter a integer");
             i = int.Parse(Console.ReadLine());
             Console.WriteLine("i: " + i);
-            Console.ReadLine();
+            Console.WriteLine();
+            Console.WriteLine("Enter a double (float)");
+            d = double.Parse(Console.ReadLine());
+            Console.WriteLine("d: " + d);
+            Console.ReadLine(); 
+
 
 
         }
