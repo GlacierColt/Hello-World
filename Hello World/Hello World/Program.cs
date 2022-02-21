@@ -86,6 +86,11 @@ namespace Hello_World
                 {
                     i = int.Parse(s);
                     Console.WriteLine("i: " + i);
+                    Console.WriteLine("C# is dumb so this is what it think 45/2 is... Use doubles to get decimal points.");
+                    Console.WriteLine(45 / 2);  //Note, the result is 22 not 22.5
+                 // Console.WriteLine(45.00/2.00); <-- This is how you get with decimals
+                    Console.WriteLine("Use a % sign to check if something has a remiander. 45 % 2 =")
+                    Console.WriteLine(45 % 2);
                     Console.ReadLine();
                     return;
                   
@@ -98,6 +103,9 @@ namespace Hello_World
                 Console.WriteLine("Enter a double (float)");
                 d = double.Parse(Console.ReadLine());
                 Console.WriteLine("d: " + d);
+                Console.WriteLine(d.ToString("C")); //"C","F","C3"
+                Console.WriteLine("{0,20}", d); // <-- Aligns to the right //0 is the place holder for d.
+                Console.WriteLine("{0,-18}", d); // <-- Aligns to the left 
                 Console.ReadLine();
                 return;
             }
