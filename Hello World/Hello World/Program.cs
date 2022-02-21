@@ -88,8 +88,8 @@ namespace Hello_World
                     Console.WriteLine("i: " + i);
                     Console.WriteLine("C# is dumb so this is what it think 45/2 is... Use doubles to get decimal points.");
                     Console.WriteLine(45 / 2);  //Note, the result is 22 not 22.5
-                 // Console.WriteLine(45.00/2.00); <-- This is how you get with decimals
-                    Console.WriteLine("Use a % sign to check if something has a remiander. 45 % 2 =")
+                                                // Console.WriteLine(45.00/2.00); <-- This is how you get with decimals
+                    Console.WriteLine("Use a % sign to check if something has a remiander. 45 % 2 =");
                     Console.WriteLine(45 % 2);
                     Console.ReadLine();
                     return;
