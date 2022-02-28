@@ -91,6 +91,14 @@ namespace Hello_World
                                                 // Console.WriteLine(45.00/2.00); <-- This is how you get with decimals
                     Console.WriteLine("Use a % sign to check if something has a remiander. 45 % 2 =");
                     Console.WriteLine(45 % 2);
+                    Console.WriteLine(++i);
+                    Console.WriteLine(i++);
+                    Console.WriteLine(i);
+                    Console.WriteLine(i--);
+                    Console.WriteLine(--i);
+                    Console.WriteLine(i);
+                    const int n = 5;
+                    Console.WriteLine(n);
                     Console.ReadLine();
                     return;
                   
